@@ -17,6 +17,14 @@ int main()
 //this function returns a + (a+1) + ... + b
 int sum(int a, int b)
 {
-  return 0;
-
+  //cout << a << " " << b << endl;
+  if (a > 0 && b >= 0)
+  {
+    if (a == b)
+      return a;
+    else
+      return a + sum(a+1,b);
+  }
+  elsee
+    return -1;
 }

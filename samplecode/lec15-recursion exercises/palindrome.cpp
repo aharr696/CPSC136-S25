@@ -17,8 +17,7 @@ int main()
 //this function returns true if s is a palindrome and false otherwise
 bool isPalindrome(string s)
 {
-  return false;
-
+  
 }
 
 /* note:  
